@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru_RU">
+    <head>
+        <meta charset="UTF-8">
+        <!-- title and description -->
+        <title>Под водой</title>
+        <meta name="description" content="3 факта о подводном мире.">
+        <!-- viewport -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        <!-- styles -->
+        <link rel="stylesheet" href="styles/style.css" type="text/css">
+        <!-- icons -->
+        <link rel="icon" href="favicon.png"> <!--32х32-->
+        <link rel="apple-touch-icon" href="src/icons/touch-icon-iphone.png"> <!--60х60-->
+        <link rel="apple-touch-icon" sizes="76x76" href="src/icons/touch-icon-ipad.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="src/icons/touch-icon-iphone-retina.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="src/icons/touch-icon-ipad-retina.png">
+        <!-- open graph -->
+        <meta property="og:title" content="Под водой" />
+        <!--
+        <meta property="og:type" content="video/mp4" />
+        <meta property="og:video" content="https://site.com/video/example.mp4" />
+        -->
+        <!--
+        <meta property="og:type" content="audio/mp3" />
+        <meta property="og:audio" content="https://site.com/audio/example.mp3" />
+        -->
+        <meta property="og:type" content="article" /> <!-- if not audio and not video -->
+        <!--<meta property="og:url" content="https://website.com/" />-->
+        <meta property="og:image" content="src/icons/og.png" /> <!-- OG image is 1200×630 pixels  -->
+        <!--<meta property="og:site_name" content="website.com" /> <!-- not important -->
+        <meta property="og:description" content="3 факта о подводном мире." /> <!-- not important -->
+        <meta property="og:locale" content="ru_RU" /> <!-- default: "en_US" -->
+
+        <script defer src="./js/main.js"></script>
+    </head>
+    <body>
+        <div id="startScreen">
+            <button id="startButton">start</button>
+        </div>
+
+        <nav>
+            <a href="#header">Начало</a>
+            <a href="#section1">Факт 1</a>
+            <a href="#section2">Факт 2</a>
+            <a href="#section3">Факт 3</a>
+            <a href="#footer">О сайте</a>
+        </nav>
+
+        <header id="header">
+            <h1>ПОД ВОДОЙ</h1>
+            <h3>3 факта о подводном мире</h3>
+        </header>
+
+        <img class="wave" src="./src/images/wave-2240x660px.png">
+
+        <section id="section1">
+            <div>
+                <h2>Самый глубокий океан</h2>
+                <p>Ученые рассказали, что глубину океана они определяли при помощи звукового метода измерения.
+                    Этот метод основан на эхолокации. В итоге было установлено, что до дна Тихого океана в среднем 4,3 км.
+                    На втором месте по глубине расположился Индийский океан, глубина которого в среднем 3,95 км,
+                    а на третьем Атлантический океан, глубина которого 3,9 км.</p>
+            </div>
+        </section>
+
+        <img class="wave" src="./src/images/wave-2240x660px.png">
+
+        <section id="section2">
+            <div>
+                <h2>Самый "богатый" океан</h2>
+                <p>Подводный мир Тихого океана самый богатый и разнообразный.
+                    Здесь обитают свыше 850 видов водорослей, свыше 6 тысяч видов моллюсков,
+                    свыше 100 тысяч видов животных, из которых более 3,5 тысяч видов рыб.
+                    Многообразие подводного мира Тихого океана составляет почти 50% всех живых организмов Мирового океана.</p>
+            </div>
+        </section>
+
+        <img class="wave" src="./src/images/wave-2240x660px.png">
+
+        <section id="section3">
+            <div>
+                <h2>Затонувшие сокровища</h2>
+                <p>Самой большой морской сокровищницей считается бассейн Карибского моря.
+                    В начале XVI века завоеватели Америки везли по нему сокровища в Европу.
+                    Мел Фишер — самый известный и удачливый американский охотник за сокровищами.
+                    Именно он обнаружил в июле 1985 года сокровища легендарного испанского галеона "Аточа",
+                    затонувшего во время урагана в 1622 году. Общая стоимость найденных сокровищ оценивается более чем в 400 млн долларов США.</p>
+            </div>
+        </section>
+
+        <img class="wave" src="./src/images/wave-2240x660px.png">
+
+        <footer id="footer">
+            <p>Сайт разработан в 2023г</p>
+            <p>Спасибо за внимание!</p>
+        </footer>
+
+        <canvas></canvas>
+    </body>
+</html>
